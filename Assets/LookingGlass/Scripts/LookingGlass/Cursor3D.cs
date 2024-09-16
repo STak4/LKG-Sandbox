@@ -94,6 +94,9 @@ namespace LookingGlass {
             if (frameRendered)
                 return; // don't update if frame's been rendered already
 
+            // $EDIT: SingleViewCaemraが生成されるまで待つ
+            if(hologramCamera.SingleViewCamera == null) return;
+            
             cursorCam.CopyFrom(hologramCamera.SingleViewCamera);
             int w = hologramCamera.QuiltSettings.TileWidth;
             int h = hologramCamera.QuiltSettings.TileHeight;
