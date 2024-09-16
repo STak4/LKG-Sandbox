@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "com.annulusgames.scene-system": {
+      "version": "https://github.com/AnnulusGames/SceneSystem.git?path=/Assets/SceneSystem",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0e25c4be1e84ef87c987e59239e7c79800847a5a"
+    },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9057452c86079e4265228480b1439442894d5078"
+    },
+    "com.tayx.graphy": {
+      "version": "https://github.com/Tayx94/graphy.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "1cdf31613ea294970560f0bbb2ee2d1f0cd16a22"
+    },
     "com.unity.collab-proxy": {
       "version": "2.3.1",
       "depth": 0,
@@ -141,6 +162,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.yasirkula.ingamedebugconsole": {
+      "version": "https://github.com/yasirkula/UnityIngameDebugConsole.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "51e0996359c31c9cb01cca4f5aedcd72251b2425"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
